@@ -1,0 +1,142 @@
+
+.nav-izq {
+    /* esta clase puede cambiar segun el ancho del viewport */
+    /* para que quede el icono a la izq y la hamburguesa a la der*/
+    margin-left: 150px;
+    margin-right: 250px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .nav-izq {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.fondo-gris {
+    background-color: rgb(68, 73, 78);
+    position: fixed;
+    width: 100%;
+}
+
+#codo {
+    width: 80px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+    #codo {
+        width: 40px;
+        height: 25px;
+    }
+}
+
+.texto-carousel {
+    top: 40%;
+}
+
+#nav-comprar-tickets:hover {
+    font-weight: bolder;
+}
+
+/* ************BOTON ORADOR************ */
+.boton-orador {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#boton-orador {
+    text-decoration: none;
+    color: white;
+}
+
+#boton-orador:hover {
+    font-weight: bolder;
+}
+
+/* ************BOTON TICKETS************ */
+.boton-tickets {
+    padding: 10px;
+    border: 1 solid white;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: green;
+}
+
+#boton-tickets {
+    text-decoration: none;
+    color: white;
+}
+
+#boton-tickets:hover {
+    font-weight: bolder;
+}
+
+.cuadro-texto-carousel {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.encabezado-tarjetas {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.card-img-top {
+    height: 60vh;
+
+}
+
+.badge {
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#honolulu {
+    margin: 20px;
+}
+
+#boton-conoce-mas {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+}
+
+#boton-conoce-mas:hover {
+    font-weight: bolder;
+}
+
+
+.footer-izq {
+    display: flex;
+    background-color: rgb(20, 43, 54);
+    justify-content: right;
+    align-items: center;
+}
+
+.footer-centro {
+    display: flex;
+    background-color: rgb(20, 43, 54);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.elemento-footer {
+    color: white;
+    width: min-content;
+    padding: 20px;
+}
+
+#menu-footer>a {
+    text-decoration: none;
+}

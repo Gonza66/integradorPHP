@@ -140,3 +140,7 @@
 #menu-footer>a {
     text-decoration: none;
 }
+
+.scroll-top-limit {
+    scroll-margin-top: 100px;
+}
